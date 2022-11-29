@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="STYLE.CSS">
+    <title>RESGISTRO</title>
+</head>
+<body>
+    <h1>REGISTRO</h1>
+    <section>
+        <form action="PHP/alta_usuarios.php" method="post">
+            <p><input placeholder="NOMBRE" type="text" class="input" required="" name="nombre"/></p>
+            <p><input placeholder="APELLIDO PATERNO" type="text" class="input" required="" name="apellido_p"/></p>
+            <p><input placeholder="APELLIDO MATERNO" type="text" class="input" required="" name="apellido_m"/></p>
+            <p><input placeholder="CORREO" type="text" class="input" required="" name="correo"/></p>
+            <p><input placeholder="ESPECIALIDAD" type="text" class="input" required="" name="especialidad"/></p>
+            <p><input placeholder="GRUPO (A/B)" type="text" class="input" required="" name="grupo"/></p>
+            <p><input placeholder="CONTRASEÑA" type="password" class="input" required="" name="contraseña"/></p>
+            <p><input type="submit" class="input"/></p>
+            <button type="reset" class="noselect"><span class="text">Delete</span><span class="icon"></button>
+           
+        </form>
+    </section>
+</body>
+</html>

@@ -1,5 +1,10 @@
 body{
-    background:linear-gradient(90deg,#eb92be,#ffef78, #63c9b4) ;
+    background:linear-gradient(90deg,#eb92be,#ffef78, #0afea1) ;
+}
+ul{
+    list-style-type: none;
+    width: 250px;
+    height: auto;
 }
 .input {
     line-height: 28px;
@@ -10,47 +15,56 @@ body{
     background-color: transparent;
     color: #0d0c22;
     transition: .3s cubic-bezier(0.645, 0.045, 0.355, 1);
-   }
-   .input:focus, input:hover {
+}
+.input:focus, input:hover {
     outline: none;
     padding: .2rem 1rem;
     border-radius: 1rem;
     border-color: #7a9cc6;
-   }
+}
    
-   .input::placeholder {
+.input::placeholder {
     color: #777;
-   }
-   
-   .input:focus::placeholder {
+}
+.input:focus::placeholder {
     opacity: 0;
     transition: opacity .3s;
-   }
-   button {
-       width: 150px;
-       height: 50px;
-       cursor: pointer;
-       display: flex;
-       align-items: center;
-       background: red;
-       border: none;
-       border-radius: 5px;
-       box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
-       background: #e62222;
-      }
-      
-      button, button span {
-       transition: 200ms;
-      }
-      
-      button .text {
-       transform: translateX(35px);
-       color: white;
-       font-weight: bold;
-      }
+}
+button {
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background: red;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+    background: #e62222;
+}      
+button, button span {
+    transition: 200ms;
+}     
+button .text {
+    transform: translateX(35px);
+    color: white;
+    font-weight: bold;
+}
 a{
-       color: #8bb0d3;
-       /*color: #007bff;*/
-       text-decoration: none;
-       transition: color 0.1 ease;
+    color: #007bff;
+    /*color: #007bff;*/
+    text-decoration: none;
+    transition: color 0.1 ease;
+}
+section{
+	background:#fff;
+	border-radius:30px;
+	width:300px;
+	height:350px;
+}
+.fondo{
+	background:#fff;
+	border-radius:30px;
+	width:300px;
+	height:600px;
 }

@@ -8,20 +8,23 @@
     <title>RESGISTRO</title>
 </head>
 <body>
-    <h1>REGISTRO</h1>
-    <section>
-        <form action="PHP/alta_usuarios.php" method="post">
-            <p><input placeholder="NOMBRE" type="text" class="input" required="" name="nombre"/></p>
-            <p><input placeholder="APELLIDO PATERNO" type="text" class="input" required="" name="apellido_p"/></p>
-            <p><input placeholder="APELLIDO MATERNO" type="text" class="input" required="" name="apellido_m"/></p>
-            <p><input placeholder="CORREO" type="text" class="input" required="" name="correo"/></p>
-            <p><input placeholder="ESPECIALIDAD" type="text" class="input" required="" name="especialidad"/></p>
-            <p><input placeholder="GRUPO (A/B)" type="text" class="input" required="" name="grupo"/></p>
-            <p><input placeholder="CONTRASEÑA" type="password" class="input" required="" name="contraseña"/></p>
+    <center><h1>REGISTRO</h1><br><br>
+    <section class="fondo" >
+        <center><form action="PHP/alta_usuarios.php" method="post">
+            <br>
+            <p><input placeholder="NO_CONTROL" type="text" class="input" required="" name="noControl" id="noControl" /></p>
+            <p><input placeholder="NOMBRE" type="text" class="input" required="" name="nombre" id="nombre"/></p>
+            <p><input placeholder="APELLIDO PATERNO" type="text" class="input" required="" name="apellido_p" id="apellido_p"/></p>
+            <p><input placeholder="APELLIDO MATERNO" type="text" class="input" required="" name="apellido_m" id="apellido_m"/></p>
+            <p><input placeholder="ESPECIALIDAD" type="text" class="input" required="" name="grupo" id="ES"/></p>
+            <p><input placeholder="GRADO/GRUPO" type="text" class="input" required="" name="grupo" id="grupo"/></p>
+            <p><input placeholder="BACHILLERATO" type="text" class="input" required="" name="bachi"/></p>
+            <p><input placeholder="DOCENTE" type="text" class="input" required="" name="dos"/></p>
             <p><input type="submit" class="input"/></p>
-            <button type="reset" class="noselect"><span class="text">Delete</span><span class="icon"></button>
-           
-        </form>
-    </section>
+            <!--<button type="reset" class="" > </button>-->
+            <button type="reset" class="noselect"><span class="text">Delete</span><span class="icon"></button>     
+        </form></center>
+    </section></center>
+    <script src="JS/PETICIONES.JS"></script>
 </body>
 </html>
